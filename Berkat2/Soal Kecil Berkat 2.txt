@@ -1,0 +1,77 @@
+Awal Akhir
+1. Buat Kotak sesuai lebar dan tinggi
+lebar = 3
+tinggi = 3
+# # #
+# # #
+# # #
+
+2. Buatlah kotak angka sesuai lebar dan tinggi
+lebar = 3
+tinggi = 3
+hasil:
+1 2 3
+4 5 6
+7 8 9
+
+3. Lanjutan nomor 2, setiap nomor dibawah 0 akan ditulis 02, 03 dan seterusnya gunakan f{count:02}
+01 02 03
+04 05 06
+07 08 09
+
+4. Lanjutan nomor 3, awal dan akhir diganti dengan "awal", "akhir"
+awal 02 03
+04 05 06
+07 08 akhir
+
+
+5. Lanjutan nomor 4, Pada baris ganjil, angka-angka dituliskan secara berurutan dari kiri ke kanan hingga mencapai panjang yang ditentukan Pada baris genap, angka berikutnya (yaitu angka setelah angka terakhir 
+di baris pertama) dituliskan dari ujung kanan ke kiri.
+awal 02 03
+06 05 04
+07 08 akhir
+
+
+Pola sakit kepala
+1. Bikin pola angka menurun 
+Lebar 5
+Tinggi 5
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+
+2. Lanjutan nomor 1, Bikin pola angka menurun perbaris
+Lebar 5
+Tinggi 5
+5 4 3 2 1
+4 3 2 1 0
+3 2 1 0 -1
+2 1 0 -1 -2
+1 0 -1 -2 -3
+
+3. Lanjutan nomor 2, Stop pada 1 dan lanjut angka positif setelahnya
+5 4 3 2 1
+4 3 2 1 2
+3 2 1 2 3
+2 1 2 3 4
+1 2 3 4 5
+
+4. Lanjutan nomor 3, untuk lebar stop pada angka pertengahan ((panjang//2) - 1)
+5 4 3 2 1
+4 3 2 1 2
+3 2 1 2 3
+2 1 2 3 4
+1 2 3 4 5
+
+5. Lanjutan nomor 4, untuk tinggi stop pada angka pertengahan ((panjang//2) - 1) untuk lebar stop pada angka pertengahan setiap baris
+5 4 3 4 5
+4 3 2 3 4
+3 2 1 2 3
+4 3 2 3 4
+5 4 3 4 5
+
+
+
+
